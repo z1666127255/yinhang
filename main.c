@@ -53,6 +53,8 @@ int main(){
         }
 
         if(code == 4){
+            printf("jieshu\n");
+            break;
             
         }
     }
