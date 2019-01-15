@@ -28,12 +28,20 @@ int main(){
             printf("shuruquchujine\n");
             int qu;
             scanf("%d",&qu);
-            qian -= qu;
+            if(qu < qian){
+                qian -= qu;
 
             printf("quchuchenggong\n");
             char x;
             scanf("%c",&x);
             scanf("%c",&x);
+            }
+            else{
+                printf("yuebuzu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
         }
 
         if(code == 3){
