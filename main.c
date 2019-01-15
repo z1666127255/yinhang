@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-
+    int qian=0;
     printf("yinhangxitong\n");
     while(1){
         printf("1----cunqian\n");
@@ -14,7 +14,14 @@ int main(){
         scanf("%d",&code);
 
         if(code == 1){
-
+            printf("qingshurucunrujine:\n");
+            int cun;
+            scanf("%d",&cun);
+            qian += cun;
+            printf("cunruchenggong,jixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
 
         if(code == 2){
