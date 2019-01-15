@@ -2,14 +2,14 @@
 
 int main(){
 
-    printf("欢迎进入银行管理系统\n");
+    printf("yinhangxitong\n");
     while(1){
-        printf("1----存钱\n");
-        printf("2----取钱\n");
-        printf("3----余额\n");
-        printf("4----退出\n");
+        printf("1----cunqian\n");
+        printf("2----quqian\n");
+        printf("3----yue\n");
+        printf("4----tuichu\n");
 
-        printf("请输入相应功能编号\n");
+        printf("xiangyingbianhao\n");
         int code;
         scanf("%d",&code);
 
