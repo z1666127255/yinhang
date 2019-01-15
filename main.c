@@ -25,7 +25,15 @@ int main(){
         }
 
         if(code == 2){
-            
+            printf("shuruquchujine\n");
+            int qu;
+            scanf("%d",&qu);
+            qian -= qu;
+
+            printf("quchuchenggong\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
 
         if(code == 3){
@@ -36,4 +44,5 @@ int main(){
             
         }
     }
+    return 0;
 }
